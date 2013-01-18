@@ -1,14 +1,19 @@
 <p id="notice"><%= notice %></p>
-
-<p>
+<table class="table">
+<tr>
+<td>
   <b>Name:</b>
   <%= @status.name %>
-</p>
+</td>
 
-<p>
+<td>
   <b>Content:</b>
   <%= @status.content %>
-</p>
+</td>
+</tr>
+    
+    </table>
+
 
 
 <%= link_to 'Edit', edit_status_path(@status) %> |

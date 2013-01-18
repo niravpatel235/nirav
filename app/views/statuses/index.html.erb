@@ -1,6 +1,7 @@
-<h1>Listing statuses</h1>
+<h1><em>Listing statuses</em></h1>
 
-<table>
+
+<table class="table table-striped">
   <tr>
     <th>Name</th>
     <th>Content</th>
@@ -13,9 +14,9 @@
   <tr>
     <td><%= status.name %></td>
     <td><%= status.content %></td>
-    <td><%= link_to 'Show', status %></td>
-    <td><%= link_to 'Edit', edit_status_path(status) %></td>
-    <td><%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td class="btn"><%= link_to 'Show', status %></td>
+    <td class="btn btn-info"><%= link_to 'Edit', edit_status_path(status) %></td>
+    <td class="btn btn-danger"><%= link_to 'Destroy', status, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
