@@ -1610,7 +1610,11 @@ select:focus:invalid:focus {
   padding: 19px 20px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   background-color: #0F8FA3;
+=======
+  background-color: #f5f5f5;
+>>>>>>> b4daedb531aeb936d9d28bc53f0dc6bda19fd0b7
   border-top: 1px solid #e5e5e5;
   *zoom: 1;
 }

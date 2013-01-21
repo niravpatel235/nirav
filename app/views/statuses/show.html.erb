@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+<table class="table">
+<tr>
+<td>
+  <b>Name:</b>
+  <%= @status.name %>
+</td>
+
+<td>
+  <b>Content:</b>
+  <%= @status.content %>
+</td>
+</tr>
+    
+    </table>
+
+
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>

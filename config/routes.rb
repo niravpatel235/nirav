@@ -1,5 +1,9 @@
 Nirav::Application.routes.draw do
+<<<<<<< HEAD
   resources :posts
+=======
+  resources :statuses
+>>>>>>> b4daedb531aeb936d9d28bc53f0dc6bda19fd0b7
 
 
   # The priority is based upon order of creation:
